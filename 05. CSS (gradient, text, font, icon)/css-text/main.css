@@ -1,0 +1,87 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap'); */
+
+
+article h1 {
+  color: darkred;
+  background-color: lightgray;
+  text-shadow: 2px 2px 5px black;
+  text-align: center;
+  /* font-style: italic;
+  font-size: 2em;
+  font-weight: bolder; */
+  font-family: 'Raleway';
+  /* font-style: italic;
+  font-weight: 900; */
+}
+p {
+  text-align: justify;
+  font-weight: 300;
+  font-style: italic;
+  font-family: 'Raleway';
+  /* white-space: pre; */
+  /* direction: rtl;
+  unicode-bidi: bidi-override; */
+}
+/* ul li:first-child {
+  text-decoration-line: line-through;
+    text-decoration-color: gray;
+    text-decoration-style: solid;
+    text-decoration-thickness: 3px;
+  text-decoration: line-through gray solid 3px;
+} */
+/* ul li:nth-child(2) {
+  text-transform: capitalize;
+  text-indent: 20px;
+}
+ul li:nth-child(3) {
+  letter-spacing: 1em;
+  line-height: 2em;
+}
+ul li:nth-child(4) {
+  word-spacing: 20px;
+} */
+#social-media{
+    list-style: none;
+}
+#social-media li{
+    display: inline-block;
+    margin: 0 25px;
+}
+#social-media i{
+    font-size: 30px;
+}
+.social{
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Raleway';
+}
+.social h3{
+    transition: .3s;
+}
+.social h3:hover{
+    cursor: pointer;
+    color: rgb(66, 104, 120);
+    letter-spacing: 2px;
+}
+.social-media-links{
+    border: 1px solid lightgray;
+    padding: 12px 11px;
+    border-radius: 50%;
+    transition: .4s;
+}
+.social-media-links:hover{
+    background-color: lightblue;
+    color: white;
+}
+.fa-instagram{
+    color: #E82224;
+}
+.fa-youtube{
+    color: red;
+}
+.fa-x-twitter{
+    color: #1C96E8;
+}
+.fa-github{
+    color: #2A2F35;
+}

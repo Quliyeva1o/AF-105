@@ -1,0 +1,53 @@
+.btn {
+  display: block;
+  margin: 20px auto;
+}
+input {
+  margin-bottom: 12px;
+}
+.slider-wrapper {
+  width: 70%;
+  height: 500px;
+  margin: 30px auto;
+  position: relative;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.slider {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  overflow: hidden;
+}
+.slider .slide {
+  transition: 0.3s linear;
+  flex-shrink: 0;
+  width: 100%;
+  height: 100%;
+}
+.slider .slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.slider-wrapper .next-btn,
+.prev-btn {
+  position: absolute;
+  background-color: rgba(211, 211, 211, 0.631);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.prev-btn {
+  left: 4%;
+}
+.next-btn {
+  right: 4%;
+}

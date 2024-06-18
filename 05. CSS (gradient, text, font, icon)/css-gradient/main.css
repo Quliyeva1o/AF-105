@@ -1,0 +1,46 @@
+.box{
+    width: 70vw;
+    height: 500px;
+    border: 2px solid black;
+    margin: 50px auto;
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    /* background-color: olive; */
+    background-image: linear-gradient(to right, rgba(0, 125, 0, 0.098), rgb(0, 125, 0));
+}
+h3{
+    text-align: center;
+    font-size: 40px;
+}
+.circle{
+    width: 500px;
+    height: 500px;
+    border: 2px dotted black;
+    background-color: goldenrod;
+    margin: 50px auto;
+    border-radius: 50%;
+    background-image: radial-gradient(circle,red 5%, orange 10%, goldenrod 5%, yellow 60%);
+}
+.conic{
+    width: 400px;
+    height: 400px;
+    margin: 50px auto;
+    border: 2px solid black;
+    background-image: conic-gradient(from 180deg,red, yellow, green, blue, black, red);
+}
+#poster{
+    height: 70vh;
+    width: 70vw;
+    margin: 50px auto;
+    border: 2px solid black;
+    background-image:url('https://c4.wallpaperflare.com/wallpaper/89/724/61/2012-tmnt-teenage-mutant-ninja-turtles-wallpaper-preview.jpg');
+    /* filter: grayscale(100%); */
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+    transition: 300ms;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+#poster:hover{
+    filter: grayscale(0%);
+}

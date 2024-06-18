@@ -1,0 +1,13 @@
+.btn{
+    border: none;
+    padding: 20px 30px;
+    color: white;
+    border-radius: 6px;
+}
+.carousel-item img{
+    width: 100% !important;
+    height: 100% !important;
+}
+.carousel-item{
+    border: 2px solid red;
+}

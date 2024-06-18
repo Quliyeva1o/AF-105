@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto';
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+.light-mode {
+  color-scheme: light;
+  background-color: white;
+  color: black;
+}
+.dark-mode {
+  /* Don't forget the color-scheme css attribute. This will avoid light scrollbars in dark mode. */
+  color-scheme: dark;
+  background-color: black;
+  color: white;
+}
+:root {
+  /* --swiper-pagination-color: red; */
+  /* --swiper-pagination-bottom: -10px; */
+  /* --swiper-pagination-bullet-size: 8px;
+  --swiper-pagination-bullet-width: 8px;
+  --swiper-pagination-bullet-height: 8px;
+  --swiper-pagination-bullet-inactive-color: black;
+  --swiper-pagination-bullet-inactive-opacity: 0.2;
+  --swiper-pagination-bullet-opacity: 1;
+  --swiper-pagination-bullet-horizontal-gap: 4px;
+  --swiper-pagination-bullet-vertical-gap: 6px; */
+ 
+}

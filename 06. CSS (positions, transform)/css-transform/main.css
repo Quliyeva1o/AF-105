@@ -1,0 +1,39 @@
+.box{
+    width: 70%;
+    height: 500px;
+    border: 3px solid black;
+    margin: 0 auto;
+    position: relative;
+}
+.box .child-box{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    /* transform: translate(-50%, -50%) scale(.5) rotate(45deg); */
+    /* transform: skew(45deg); */
+    width: 200px;
+    height: 200px;
+    background-color: olive;
+    transition: .3s;
+    box-shadow: 10px 10px 5px red;
+}
+.box:hover .child-box{
+    transform: translate(-50%, -50%) scale(1) rotate(405deg);
+}
+.element{
+    border: 2px solid red;
+    width: 100px;
+    height: 50px;
+    transform: translateY(50px) rotate(30deg);
+    cursor: pointer;
+    transition: .3s;
+}
+.element h5{
+    text-align: center;
+    text-shadow: 1px 1px 4px green;
+    font-family: 'Roboto';
+    border-radius: 10px;
+}
+.element:hover{
+    transform: translateY(50px) rotate(0deg);
+}

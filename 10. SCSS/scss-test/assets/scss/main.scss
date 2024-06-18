@@ -1,0 +1,83 @@
+@use './variables' as colors;
+@import './mixins';
+@import './reset';
+@import './extends';
+
+
+// .box{
+//     width: 100px;
+//     height: 100px;
+//     background-color: $secondary-color;
+//     span{
+//         color: white;
+//         display: block;
+//         text-align: center;
+//     }
+// }
+
+// .form{
+//     &__input{
+//         padding: 10px 20px;
+//         border-radius: 5px;
+//         outline: none;
+//         border: 1px solid $secondary-color;
+//     } 
+//     &__submit{
+//         border-radius: 5px;
+//         padding: 10px 12px;
+//         border: none;
+//         background-color: $primary-color;
+//         font-size: $primary-size;
+//         transition: .3s linear;
+//         &:hover{
+//             background-color: $primary-hover-color;
+//         }
+//     }
+// }
+// .title{
+//     color: $secondary-color;
+//     position: relative;
+//     &::after{
+//         content: '';
+//         display: block;
+//         position: absolute;
+//         width: 100%;
+//         height: 2px;
+//         background-color: $primary-color;
+//     }
+// }
+.btn{
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    padding: 12px 20px;
+    color: white !important;
+}
+.btn-primary{
+    @include btn-generate(skyblue,colors.$primary-color);
+}
+.btn-success{
+    @include btn-generate(green,colors.$success-color);
+}
+.btn-danger{
+    @include btn-generate(orange,colors.$danger-color);
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+// .btn-secondary{
+//     @include btn-generate(color.$secondary-color);
+// }
+.box{
+    width: 70%;
+    height: 500px;
+    background-color: skyblue;
+    @extend %center-div;
+    .inner-box{
+        width: 100px;
+        height: 100px;
+        background-color: colors.$danger-color;
+    }
+}

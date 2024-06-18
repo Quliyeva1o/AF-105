@@ -1,0 +1,56 @@
+.parent-box {
+  width: 70%;
+  height: 500px;
+  border: 2px solid black;
+  margin: 40px auto;
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* flex-direction: column; */
+
+  /* flex-direction: row;
+    flex-wrap: wrap; */
+  /* flex-flow: row wrap; */
+  /* justify-content: center; */
+  /* align-items: flex-start; */
+  /* align-content: flex-start; */
+  /* gap: 10px 30px; */
+  /* column-gap: 10px;
+  row-gap: 30px; */
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bolder;
+  text-shadow: 1px 1px 3px black;
+  font-size: 20px;
+  width: 100px;
+  height: 100px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.red-box {
+  background-color: red;
+  order: 0;
+  /* flex-shrink: 3; */
+  /* flex-basis: 400px; */
+  /* flex-grow: 3; */
+}
+.blue-box {
+  background-color: blue;
+  order: 1;
+  /* flex-grow: 2; */
+}
+.green-box {
+  background-color: green;
+  order: 0;
+  align-self:self-end;
+  /* flex-grow: 1; */
+}
+.yellow-box {
+  background-color: yellow;
+  order: 0;
+}

@@ -1,0 +1,31 @@
+{
+    "products" : [
+        {
+            "id":1,
+            "name": "adidas Yeezy",
+            "price": 234
+        },
+        {
+            "id":2,
+            "name": "nike Monarch",
+            "price": 435
+        }
+    ],
+    "users": [
+        {
+            "id":1,
+            "username": "joe123",
+            "isAdmin": true
+        },
+        {
+            "id":2,
+            "username": "tobby1",
+            "isAdmin": false
+        },
+        {
+            "id":3,
+            "username": "marry3",
+            "isAdmin": true
+        }
+    ]
+}

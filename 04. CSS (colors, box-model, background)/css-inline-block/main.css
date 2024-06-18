@@ -1,0 +1,32 @@
+.box {
+  width: 150px;
+  height: 150px;
+  border-width: 2px;
+  border-style: solid;
+  display: inline-block;
+  margin-bottom: 50px;
+  opacity: 0;
+  visibility: hidden;
+}
+.red-box {
+  border-color: red;
+  background-color: indianred;
+}
+.blue-box {
+  border-color: blue;
+  background-color: skyblue;
+}
+.green-box {
+  border-color: green;
+  background-color: seagreen;
+}
+p{
+    border: 1px solid black;
+    width: 300px;
+    margin-bottom: 100px;
+}
+span{
+    border: 1px solid green;
+    width: 400px;
+    margin-bottom: 100px;
+}

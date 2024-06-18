@@ -1,0 +1,10 @@
+private, protected - properties, methods
+static
+encapsulation - getters, setters,
+abstraction
+
+
+difference between array and Nodelist, HTMLCollection
+innerHTML vs createElement
+replaceChild(), cloneNode() ,after() ,insertAdjacentHTML() insertBefore(), insterAfter()
+getComputedStyle(), 

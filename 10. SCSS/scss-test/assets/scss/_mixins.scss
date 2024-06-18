@@ -1,0 +1,7 @@
+@mixin btn-generate($hover-color,$bgc: lightgrey) {
+    background-color: $bgc;
+    transition: .3s linear;
+    &:hover{
+        background-color: $hover-color;
+    }
+}

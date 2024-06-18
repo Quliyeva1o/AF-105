@@ -1,0 +1,130 @@
+/* h1 {
+  color: red;
+}
+.title {
+  color: orange;
+}
+.title.heading {
+  color: hotpink;
+}
+.box .text {
+  text-decoration: underline;
+}
+#title {
+  border: 1px solid red;
+}
+
+.box > p {
+  color: yellowgreen;
+}
+
+.box + p + span {
+  background-color: gold;
+}
+
+div ~ ul {
+  text-decoration: underline;
+}
+
+[href*="az"] {
+  border: 1px solid green;
+}
+div.box > ul#list li > div p.text.intro {
+  text-decoration: underline;
+  color: brown;
+}
+
+p::selection {
+  background-color: red;
+  color: black;
+}
+li::marker {
+  color: red;
+}
+h5::first-letter {
+  font-size: 40px;
+  color: aquamarine;
+}
+p::first-line {
+  text-decoration: underline;
+  font-weight: bold;
+}
+.icon{
+  position: relative;
+}
+.icon::before {
+  position: absolute;
+  top: 50%;
+  left: -33%;
+  display: inline;
+  content: '';
+  background-color: black;
+  width: 15px;
+  height: 1px;
+}
+.icon::after {
+  position: absolute;
+  top: 50%;
+  right: -33%;
+  display: inline;
+  content: '';
+  background-color: black;
+  width: 15px;
+  height: 1px;
+}
+.link{
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.link::after{
+  display: block;
+  content: '';
+  width: 0px;
+  height: 2px;
+  background-color: black;
+  transition: .5s;
+  border-radius: 10px;
+}
+.link:hover::after{
+  width: 100px;
+}
+button{
+  background-color: skyblue;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 10px;
+  cursor:pointer;
+  transition: 500ms;
+}
+button:hover{
+  background-color: rgb(73, 115, 131);
+}
+button:disabled{
+  background-color: red;
+}
+button:hover + p{
+  color: red;
+}
+input:checked{
+  accent-color: black;
+}
+#ul-list li:nth-child(even){
+  color: green;
+}
+
+p:nth-of-type(2){
+  color: goldenrod;
+}
+ */
+#title {
+  color: yellow;
+}
+p {
+  color: red !important;
+}
+.text {
+  color: blue;
+}

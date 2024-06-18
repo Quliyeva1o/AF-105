@@ -1,0 +1,5 @@
+static keyword - properties, methods
+access modifier - public, private, protected
+abstraction - abstract classes
+encapsulation - getters, setters
+

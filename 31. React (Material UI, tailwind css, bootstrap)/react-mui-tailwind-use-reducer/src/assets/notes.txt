@@ -1,0 +1,6 @@
+Material UI
+mui icons
+icons
+tailwind css
+custom rol, col, container
+use reducer hook

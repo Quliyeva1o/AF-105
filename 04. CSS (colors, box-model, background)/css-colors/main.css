@@ -1,0 +1,19 @@
+article>h2{
+    color: springgreen;
+}
+article>h2+p{
+    color: rgb(57, 169, 39);
+}
+p:nth-of-type(2){
+    color: rgba(255, 0, 0, 0.4);
+}
+li:first-child{
+    color: #FF69B4;
+}
+li:nth-child(2){
+    color: hsl(0, 70%, 50%);
+}
+li:nth-child(3){
+    color: hsla(40, 80%, 50%, 1);
+    background-color: skyblue;
+}

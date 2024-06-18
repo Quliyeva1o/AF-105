@@ -1,0 +1,60 @@
+{
+  "movies": [
+    {
+      "id": "1",
+      "title": "Alien",
+      "genre": "horror",
+      "releaseYear": 2014,
+      "poster": "https://i.ebayimg.com/images/g/3QgAAOSwUnJiTBar/s-l400.jpg",
+      "desc": "The crew of a spacecraft, Nostromo, intercept a distress signal from a planet and set out to investigate it. However, to their horror, they are attacked by an alien which later invades their ship.",
+      "cast": [
+        {
+          "id": 1714630765975,
+          "fullName": "Elnur Khalilov",
+          "age": "34",
+          "country": "Columbia"
+        },
+        {
+          "id": 1714630788127,
+          "fullName": "Elnur Khalilov 2",
+          "age": "35",
+          "country": "Columbia 2"
+        },
+        {
+          "id": 1714631109988,
+          "fullName": "Joe Doe",
+          "age": "34",
+          "country": "USA"
+        },
+        {
+          "id": 1714631135108,
+          "fullName": "QWEG",
+          "age": "3",
+          "country": "WRHGW2R"
+        },
+        {
+          "id": 1714631190483,
+          "fullName": "QEGGH",
+          "age": "3",
+          "country": "2WH"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Titanic",
+      "genre": "romantic",
+      "releaseYear": 2000,
+      "poster": "https://i.ebayimg.com/images/g/3QgAAOSwUnJiTBar/s-l400.jpg",
+      "desc": "The crew of a spacecraft, Nostromo, intercept a distress signal from a planet and set out to investigate it. However, to their horror, they are attacked by an alien which later invades their ship.",
+      "cast": [
+        {
+          "id": 1714630921412,
+          "fullName": "Leonardo Dicaprio",
+          "age": "40",
+          "country": "USA"
+        }
+      ]
+    }
+  ]
+}

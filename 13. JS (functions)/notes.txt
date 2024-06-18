@@ -1,0 +1,9 @@
+// Object.setPrototypeOf
+// Object.create
+// Object.assign
+// Object comparison, reference type
+//destruct, spread
+// for in, for of
+// Object.keys, Object.entities, Object.values
+// Function Constructor
+// Object __proto__
